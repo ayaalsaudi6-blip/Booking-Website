@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caffe-Z</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Caffe-Z</h1>
+
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="dark-mode-btn">🌙</button>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h2>Enjoy The Best Coffee Experience</h2>
+    <p>Fresh coffee, desserts, and cozy atmosphere.</p>
+    <button class="hero-btn">Book Now</button>
+  </div>
+</section>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    Caffe-Z is a modern café designed for coffee lovers.
+    We provide premium drinks, desserts, and relaxing vibes.
+  </p>
+</section>
+
+<section class="menu-section" id="menu">
+  <h2>Our Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1200&auto=format&fit=crop" />
+      <h3>Latte</h3>
+      <p>$6</p>
+      <button class="fav-btn">❤️</button>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop" />
+      <h3>Cappuccino</h3>
+      <p>$7</p>
+      <button class="fav-btn">❤️</button>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop" />
+      <h3>Mocha</h3>
+      <p>$8</p>
+      <button class="fav-btn">❤️</button>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop" />
+      <h3>Cheesecake</h3>
+      <p>$10</p>
+      <button class="fav-btn">❤️</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <h2>Gallery</h2>
+
+  <div class="gallery-container">
+    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1200&auto=format&fit=crop" />
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop" />
+    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1200&auto=format&fit=crop" />
+  </div>
+</section>
+
+<section class="reservation" id="reservation">
+  <h2>Book A Table</h2>
+
+  <form id="reservation-form">
+
+    <input type="text" id="name" placeholder="Your Name" required />
+
+    <input type="date" id="date" required />
+
+    <input type="time" id="time" required />
+
+    <input type="number" id="guests" placeholder="Guests" required />
+
+    <button type="submit">Reserve Now</button>
+
+  </form>
+</section>
+
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial-card">
+      <p>“Amazing coffee and great atmosphere.”</p>
+      <h4>- Sarah</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>“Best café experience in town.”</p>
+      <h4>- Ahmad</h4>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+
+  <p>Email: caffez@gmail.com</p>
+  <p>Phone: +962 7 9999 9999</p>
+  <p>Location: Amman, Jordan</p>
+</section>
+
+<div id="toast"></div>
+
+<footer>
+  <p>© 2026 Caffe-Z | All Rights Reserved</p>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
